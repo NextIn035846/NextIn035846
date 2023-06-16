@@ -30,4 +30,5 @@
 
 #DataScience #DataAnalysis #Python #SQL #MachineLearning #Statistics #Innovation #ProblemSolving
 
+[![Thomas github stats](https://github-readme-stats.vercel.app/api?username=NextIn035846&count_private=true&show_icons=true&theme=radical&hide_rank=false)](https://github.com/anuraghazra/github-readme-stats)
 
