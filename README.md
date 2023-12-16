@@ -1,6 +1,7 @@
+<img align="right" alt="Coding" width="400" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif">
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=NextIn035846&label=Profile%20views&color=0e75b6&style=flat" alt="NextIn035846" /> </p>
+
 ### Hi there 👋
-
-
 
 👋 Hello, I'm Thomas!
 
@@ -26,7 +27,7 @@
 
 🌍 Let's connect and collaborate to make an impact in the world of data science and analytics. Reach out to me for exciting opportunities and let's embark on a data-driven adventure together!
 
-📩 Feel free to contact me at thomaspatole19@gmail.com or connect with me on LinkedIn https://www.linkedin.com/in/thomas-patole-121059179/.
+📩 Feel free to contact me at thomaspatole19@gmail.com or connect with me on LinkedIn https://www.linkedin.com/in/thomas-patole/.
 
 #DataScience #DataAnalysis #Python #SQL #MachineLearning #Statistics #Innovation #ProblemSolving
 
