@@ -24,6 +24,7 @@
 ## Recognition:
 
 🏆 Gold medal at the Smart India Hackathon.
+
 🌟 5-star ranking on HackerRank in Python and SQL challenges.
 
 ## Contact:
