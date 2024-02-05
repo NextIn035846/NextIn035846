@@ -29,9 +29,8 @@
 
 ## Contact:
 
-📩 Feel free to contact me at thomaspatole19@gmail.com or connect with me on LinkedIn https://www.linkedin.com/in/thomas-patole/.
+📩 Feel free to connect with me on LinkedIn https://www.linkedin.com/in/thomas-patole/.
 
-#DataScience #DataAnalysis #Python #SQL #MachineLearning #Statistics #Innovation #ProblemSolving
 
 [![Thomas github stats](https://github-readme-stats.vercel.app/api?username=NextIn035846&count_private=true&show_icons=true&theme=radical&hide_rank=false)](https://github.com/anuraghazra/github-readme-stats)
 
