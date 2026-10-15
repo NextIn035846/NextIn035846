@@ -1,0 +1,30 @@
+{
+  "title": "AI & Developer Stack",
+  "_comment": "Illustrative focus areas, not automatically measured proficiency.",
+  "axes": [
+    {
+      "label": "Python",
+      "value": 90
+    },
+    {
+      "label": "LangChain",
+      "value": 86
+    },
+    {
+      "label": "LangGraph",
+      "value": 80
+    },
+    {
+      "label": "SQL",
+      "value": 82
+    },
+    {
+      "label": "Vector DBs",
+      "value": 78
+    },
+    {
+      "label": "FastAPI",
+      "value": 76
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "title": "AI Engineering Skill Radar",
+  "_comment": "Illustrative self-assessment. Adjust values to reflect your current skills; workflow redraws this chart.",
+  "axes": [
+    {
+      "label": "Generative AI",
+      "value": 88
+    },
+    {
+      "label": "RAG / Retrieval",
+      "value": 88
+    },
+    {
+      "label": "Python",
+      "value": 85
+    },
+    {
+      "label": "AI Agents",
+      "value": 82
+    },
+    {
+      "label": "Text-to-SQL",
+      "value": 80
+    },
+    {
+      "label": "APIs / Backend",
+      "value": 78
+    },
+    {
+      "label": "Cloud / Deploy",
+      "value": 70
+    }
+  ]
+}

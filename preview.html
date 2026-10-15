@@ -1,3 +1,69 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Thomas Patole — GitHub Profile Preview</title><style>*{box-sizing:border-box}body{margin:0;background:#070b16;color:#f4f7ff;font:16px/1.65 Inter,Segoe UI,Arial,sans-serif}.wrap{max-width:1000px;margin:36px auto;padding:0 18px}img{display:block;width:100%;height:auto;margin:18px 0;border-radius:20px}h1{font-size:2rem;margin:28px 0 0}h2{margin-top:32px;color:#65a0ff}a{color:#80b0ff}table{border-collapse:collapse;width:100%}td,th{border:1px solid #263653;padding:10px;text-align:left}code{color:#ff8191}.note{color:#aab5ca}</style></head><body>
-  <main style="max-width:1200px;margin:24px auto;padding:16px;font-family:Arial,sans-serif;background:#070b16;color:#f5f7ff"><img src="assets/profile-showcase.png" alt="Thomas Patole professional AI engineering portfolio preview" style="display:block;width:100%;height:auto;border-radius:16px;margin-bottom:24px"><main class="wrap"><img src="assets/hero.svg" alt="Thomas Patole — Agentic AI Engineer"><img src="assets/about-life.svg" alt="How I build"><img src="assets/stack.svg" alt="Engineering stack"><img src="assets/id-dashboard.svg" alt="Developer profile"><img src="assets/connect.svg" alt="Connect with Thomas"><h1>Thomas Patole</h1><p><strong>Agentic AI Engineer | Generative AI &amp; RAG Systems | LLM Application Development</strong></p><p>Building practical AI systems across enterprise RAG, agentic workflows, hybrid retrieval, and natural-language data access.</p><p><a href="https://www.linkedin.com/in/thomas-patole/">LinkedIn</a> · <a href="https://github.com/NextIn035846?tab=repositories">GitHub repositories</a></p><p class="note">Local preview. Keep README.md and assets/ together when publishing.</p></main></main>
-</body></html>
+<!doctype html>
+<meta charset="utf-8">
+<title>profile assets preview</title>
+<style>
+  :root { color-scheme: dark }
+  body { background:#0d1117; color:#c9d1d9; font:15px/1.5 ui-sans-serif,Segoe UI,system-ui,sans-serif;
+         margin:0; padding:40px; }
+  h1 { font-size:20px; color:#aa9bef; letter-spacing:.02em }
+  h2 { font-size:13px; text-transform:uppercase; letter-spacing:.12em; color:#8b949e;
+       border-bottom:1px solid #21262d; padding-bottom:8px; margin:44px 0 18px }
+  .row { display:flex; gap:28px; flex-wrap:wrap; align-items:flex-start }
+  .card { background:#0d1117; border:1px solid #21262d; border-radius:10px; padding:18px }
+  .card.light { background:#fff }
+  .tag { font:11px ui-monospace,Consolas,monospace; color:#8b949e; display:block; margin-bottom:10px }
+  img { display:block; max-width:100% }
+  button { background:#21262d; color:#c9d1d9; border:1px solid #30363d; border-radius:6px;
+           padding:5px 12px; font:inherit; font-size:12px; cursor:pointer; margin-left:14px;
+           vertical-align:middle; text-transform:none; letter-spacing:0 }
+  button:hover { background:#30363d; border-color:#aa9bef; color:#aa9bef }
+  .missing { color:#8b949e; font-style:italic; font-size:13px }
+</style>
+
+<h1>profile assets — local preview</h1>
+<p class="missing">Each asset is shown against both a dark and a light card, the way GitHub will render it.</p>
+
+<h2>banner <button id="replay-banner">replay</button></h2>
+<div class="row">
+  <div class="card"><span class="tag">banner-dark.v9.svg (on dark)</span>
+    <img class="banner" data-base="assets/banner-dark.v9.svg" src="assets/banner-dark.v9.svg" width="880" onerror="this.replaceWith(Object.assign(document.createElement('p'),{className:'missing',textContent:'not generated yet — run scripts/banner/generate.py'}))"></div>
+  <div class="card light"><span class="tag" style="color:#57606a">banner-light.v9.svg (on light)</span>
+    <img class="banner" data-base="assets/banner-light.v9.svg" src="assets/banner-light.v9.svg" width="880" onerror="this.replaceWith(Object.assign(document.createElement('p'),{className:'missing',textContent:'not generated yet'}))"></div>
+</div>
+<script>
+  document.getElementById('replay-banner').onclick = () => {
+    document.querySelectorAll('img.banner').forEach(img => {
+      img.src = img.dataset.base + '?' + Date.now();
+    });
+  };
+</script>
+
+<h2>portrait <button id="replay">replay the load-in</button></h2>
+<div class="row">
+  <div class="card"><span class="tag">portrait-dark.svg (on dark)</span>
+    <img class="portrait" data-base="assets/portrait-dark.svg" src="assets/portrait-dark.svg" width="300" onerror="this.replaceWith(Object.assign(document.createElement('p'),{className:'missing',textContent:'not generated yet — run dotify.py'}))"></div>
+  <div class="card light"><span class="tag" style="color:#57606a">portrait-light.svg (on light)</span>
+    <img class="portrait" data-base="assets/portrait-light.svg" src="assets/portrait-light.svg" width="300" onerror="this.replaceWith(Object.assign(document.createElement('p'),{className:'missing',textContent:'not generated yet'}))"></div>
+</div>
+<script>
+  // The row-reveal runs once per image load, so force a fresh load to rewatch it.
+  document.getElementById('replay').onclick = () => {
+    document.querySelectorAll('img.portrait').forEach(img => {
+      img.src = img.dataset.base + '?' + Date.now();
+    });
+  };
+</script>
+
+<h2>skill radar</h2>
+<div class="row">
+  <div class="card"><span class="tag">radar-dark.svg</span><img src="assets/radar-dark.svg" width="440"></div>
+  <div class="card light"><span class="tag" style="color:#57606a">radar-light.svg</span><img src="assets/radar-light.svg" width="440"></div>
+</div>
+
+<h2>language radar</h2>
+<div class="row">
+  <div class="card"><span class="tag">radar-langs-dark.svg</span>
+    <img src="assets/radar-langs-dark.svg" width="440" onerror="this.replaceWith(Object.assign(document.createElement('p'),{className:'missing',textContent:'generated by the Radar workflow (needs your username)'}))"></div>
+  <div class="card light"><span class="tag" style="color:#57606a">radar-langs-light.svg</span>
+    <img src="assets/radar-langs-light.svg" width="440" onerror="this.replaceWith(Object.assign(document.createElement('p'),{className:'missing',textContent:'not generated yet'}))"></div>
+</div>
